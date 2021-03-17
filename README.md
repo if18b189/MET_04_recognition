@@ -21,9 +21,6 @@ pip install -r requirements.txt
 ## Screenshots:
 
 <p align="center">
-
     <img src="https://github.com/if18b189/MET_04_templateMatching/blob/master/screenshots/screenshot1.PNG" width="500" />
-
     <img src="https://github.com/if18b189/MET_04_templateMatching/blob/master/screenshots/screenshot2.PNG" width="500" />
-
 </p>
