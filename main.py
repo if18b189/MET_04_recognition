@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # matching the template using cv2.matchTemplate
     match = cv2.matchTemplate(gray_image, template, cv2.TM_CCOEFF_NORMED) # matching with horizontal template image
     # match = cv2.matchTemplate(gray_image, rotatedTemplate, cv2.TM_CCOEFF_NORMED) # matching with vertical template image
-    threshold = 0.7 # it is critical to tune the threshold, else numbers like 8 will be matched because they match the number 6
+    threshold = 0.92  # it is critical to tune the threshold, else numbers like 8 will be matched because they match the number 6
     position = np.where(match >= threshold)  # getting the location of template in the image
     for point in zip(*position[::-1]):  # draw the rectangle around the matched template
         cv2.rectangle(main_image, point, (point[0] + width, point[1] + height), (255, 0, 0), 0)
