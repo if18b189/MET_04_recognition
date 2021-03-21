@@ -1,9 +1,7 @@
 """
 sources:
-
 https://www.tutorialspoint.com/template-matching-using-opencv-in-python
 https://docs.opencv.org/master/d4/dc6/tutorial_py_template_matching.html
-
 """
 
 import cv2
